@@ -28,3 +28,11 @@ JSON Marshaling and Unmarshaling
 we would use UnMarshal
 Websites to convert JSON to GO : https://mholt.github.io/json-to-go/
  
+ Sort Package in GO which make it an ease of programming if we are looking to Sort a slice of integer or a slice of strings
+ - An example of sorting a slice of int: https://play.golang.org/p/IBRxV7erlE-
+ - An example of sorting a slice of strings: https://play.golang.org/p/r8UslAeewJF
+ 
+ Sorting Custom
+ - An example of sorting a struct which has age and name fields by it's age: https://play.golang.org/p/hzjY_6ir2ak
+ - An example of sorting a struct which has age and name fields by it's name:
+    https://play.golang.org/p/MuOkSzTFaFt
