@@ -16,3 +16,13 @@ Pointers:
 - we use pointers when there is a huge chunk of data needed to be passed into a certain area, instead of passing all the data in we can use pointer to pass in the address where the data is being stored to optimise the performance of the system
 - we could also use pointer to change the data at a certain memory address 
 - such examples in an application would be when a user wants to change their details...
+
+*** To Dereference a struct we use the (*value).field 
+As an exception, if the type x is a named pointer type and (*x).f is a valid selector expression denoting a field (but not a method), x.f is a shorthand for (*x).f
+
+JSON Marshaling and Unmarshaling 
+- an example of Marshaling:  https://play.golang.org/p/h3YCTfpJXV6
+- an exmaple of Unmarshaling:    https://play.golang.org/p/Ahenqx7OQRs
+
+Websites to convert JSON to GO : https://mholt.github.io/json-to-go/
+ 
