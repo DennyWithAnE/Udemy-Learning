@@ -22,7 +22,9 @@ As an exception, if the type x is a named pointer type and (*x).f is a valid sel
 
 JSON Marshaling and Unmarshaling 
 - an example of Marshaling:  https://play.golang.org/p/h3YCTfpJXV6
+- when you want to take data into your program and turn it into JSON and assign it to a variable we would use Marshal
 - an exmaple of Unmarshaling:    https://play.golang.org/p/Ahenqx7OQRs
-
+- similarly if you have data coming into your program and you need to turn it into GO data structures
+we would use UnMarshal
 Websites to convert JSON to GO : https://mholt.github.io/json-to-go/
  
