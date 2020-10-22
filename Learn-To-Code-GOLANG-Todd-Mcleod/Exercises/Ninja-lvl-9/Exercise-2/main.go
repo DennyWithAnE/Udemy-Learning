@@ -23,7 +23,7 @@ type person struct {
 }
 
 type human interface {
-	speak()
+	speak() string
 }
 
 func main() {
@@ -34,17 +34,17 @@ func main() {
 		age:   29,
 	}
 
-	saySomething(&p1) // this would work
-	p1.speak()        // this would work too
+	saySomething(&p1)       // this would work
+	fmt.Println(p1.speak()) // this would work too
 	// saySomething(p1) this would not work
 
 }
 
-func (p *person) speak() {
+func (p *person) speak() string {
 	fmt.Println("Hello")
+	return p.first
 }
 
 func saySomething(h human) {
 	h.speak()
-
 }
